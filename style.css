@@ -1,0 +1,391 @@
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    /* Neutral */
+
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* -------------------------Seccion1----------------------------------- */
+
+.seccion__1{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--Very-Pale-Cyan);
+    background-image: url(images/bg-hero-mobile.svg) ;
+    background-size: contain;
+    background-position: center;
+}
+
+.seccion__1__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.header__logo{
+    width: 7.5rem;
+    height: 1.5rem;
+    align-self: center;
+}
+
+.header__boton{
+    height: 2.4rem;
+    width: 8rem;
+    border: none;
+    border-radius: 1.1rem;
+    color: var(--Very-Dark-Cyan);
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.113);
+    cursor: pointer;
+}
+.header__boton:hover{
+    color: hsla(192, 100%, 9%, 0.323) ;
+}
+
+.seccion__1__titulo{
+    font-size: 1.9rem;
+    margin: 5rem 0 2.5rem;
+    color: var(--Very-Dark-Cyan);
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+}
+
+.seccion__1__parrafo{
+    font-size: 1.14rem;
+    font-weight: 400;
+    color: var(--Very-Dark-Cyan);
+}
+
+.seccion__1__boton{
+    margin: 3rem auto;
+    background-color: var(--Pink);
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    height: 3.5rem;
+    width: 18rem;
+    cursor: pointer;
+}
+
+.seccion__1__boton:hover{
+    background-color:hsla(322, 100%, 66%, 0.6);
+}
+
+.seccion__1__img{
+    width: 90%;
+}
+
+/* -------------------------Secciones2,3,4----------------------------------- */
+
+.secciones{
+    width: 85%;
+    margin: 5rem auto;
+    padding: 3rem 1.1rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.secciones img {
+    width: 90%;
+}
+
+.secciones h2{
+    margin: 2rem 0 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--Very-Dark-Cyan);
+    font-size: 1.5rem;
+}
+
+.secciones p {
+    font-size: 1rem;
+    color: var(--Grayish-Blue);
+}
+
+/* -------------------------Footer----------------------------------- */
+footer{
+    background-color: var(--Very-Dark-Cyan);
+    margin-top: 13rem;
+    padding: 1rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.footer__seccion{
+    background-color: #fff;
+    width: 90%;
+    max-width:55rem ;
+    border-radius: 1.5rem;
+    text-align: center;
+    padding: .1px;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer__seccion__titulo{
+    color: var(--Very-Dark-Cyan);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15rem;
+    margin: 2rem 0 1rem;
+}
+
+.footer__seccion__boton{
+    margin: 1rem auto 2rem;
+    background-color: var(--Pink);
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 3.5rem;
+    width: 14rem;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.footer__seccion__boton:hover{
+
+    background-color:hsla(322, 100%, 66%, 0.6);
+}
+
+.footer__logo{
+    margin: 2rem 0;
+}
+
+.footer__redes{
+    color: #fff;
+    display: flex;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.footer__redes__img{
+    margin-right: 1rem;
+    margin-top: .3rem;
+}
+
+.footer__info{
+    list-style: none;
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    padding: 0;
+}
+
+.footer__info li{
+    cursor: pointer;
+}
+
+.footer__info li:hover{
+    text-decoration: underline;
+}
+
+.footer__info--1{
+    margin-top: 3rem;
+}
+
+
+.footer__redes__sociales{
+    margin-top: 4rem;
+}
+
+.redes__sociales__iconos{
+    margin: 0 auto;
+    width: 14rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sociales__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sociales__iconos{
+    padding: 25%;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.sociales__iconos:hover{
+    color: var(--Pink);
+    border-color:var(--Pink);
+}
+
+.footer__copyright{
+    text-align: center;
+    color: #fff;
+    margin: 2rem 0;
+}
+
+/* --------------------------------Media Queries ---------------------*/
+
+@media (min-width:1024px){
+
+/* --------------------------------Seccion1---------------------*/
+
+.header__boton{
+    height: 2.8rem;
+    width: 12rem;
+    border-radius: 1.5rem;
+}
+
+
+.seccion__1{
+    padding: 2rem;  
+    background-image: url(images/bg-hero-desktop.svg) ;
+    }
+
+    .header__logo{
+    width: 9rem;
+    height: 2rem;
+    }
+
+    .seccion__1__display{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .seccion__1__info{
+        width: 40%;
+        text-align: start;
+    }
+
+    .seccion__1__titulo{
+        max-width: 25rem;
+        font-size:2.2rem ;
+    }
+
+    .seccion__1__parrafo{
+        max-width: 34.3rem;
+        font-size: 1.1rem;
+    }
+
+    .seccion__1__img{
+        width: 50%;
+    }
+
+/* --------------------------------Seccion2,Seccion3 y Seccion4---------------*/
+
+    .secciones{
+        display: flex;
+        text-align: start;
+        padding: 3rem 1.5rem;
+        justify-content: space-between;
+    }
+    .secciones img {
+        width: 50%;
+    }
+    .secciones__info{
+        padding: 2rem;
+    }
+
+    .secciones__info h2{
+        font-size:2rem ;
+    }
+
+    .secciones__info p {
+        max-width: 31rem;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+/* --------------------------------Seccion2 , Seccion 4---------------------*/
+
+    .seccion__2,.seccion__4{
+        flex-direction: row-reverse;
+        align-items: center;
+        
+    }
+
+/* --------------------------------Seccion3---------------------*/
+    .seccion__3{
+        align-items: center;
+    }
+
+/* --------------------------------Footer---------------------*/
+    footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15rem;
+    padding: 7rem 2.5rem 5rem;
+    padding-top: 7rem;
+    position: relative;
+    }
+
+    .footer__seccion{
+        top: -40%;
+        left: 50%;
+        transform: translate(-50%, 25%);
+    }
+
+    .footer__seccion__titulo{
+    font-size: 2rem;
+    margin: 3rem 0 2rem;
+    }
+
+    .footer__seccion__boton{
+        border-radius: 2.3rem;
+        font-size: 1.1rem;
+        height: 4.5rem;
+        width: 22rem;
+        letter-spacing: .02rem;
+    }
+
+    .footer__contedor__redes{
+        max-width: 25rem;
+    }
+
+    .footer__info{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__redes__sociales{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .redes__sociales__iconos{
+        margin: 0 ;
+        margin-top: 6rem;
+        width: 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__copyright{
+        margin:0;
+    }
+}
